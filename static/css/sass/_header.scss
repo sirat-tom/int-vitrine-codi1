@@ -1,13 +1,17 @@
 header{
     height: 100vh;
-    background: #F173A9 url("../img/hero_bg_2.jpg");
+    background-image: linear-gradient(91deg,#f571b3 , #e766a6, #f078a1 , #ed7793 , #f68a8e) , url("../img/hero_bg_2.jpg") ;
+    background-size: cover;
     color: white;
     .title-bloc {
-        text-align: center;
-        
+        h2 {
+            font-size: 60px;
+        }
+        padding-top: 8rem;
     }
     .text-light {
         position: absolute;
         top: 95%;
     }
 }
+
